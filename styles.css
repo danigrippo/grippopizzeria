@@ -1,0 +1,42 @@
+nav{
+    background-color: rgb(62,126,30);
+    color: white;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 13px;
+    text-align: center;
+    font-size: x-large;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+form{
+font-size: x-large;
+
+}
+
+button{
+        font-size: x-large;
+}
+
+select{
+    font-size: x-large;
+}
+
+*{
+}

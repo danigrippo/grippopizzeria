@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grippo Pizzeria</title>
+    
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+
+  <!-- Header with quick links -->
+    <header>
+<nav>
+    <ul>
+        <li><a href="order.html"><strong>Order online</strong></a></li> 
+        <li><a href="menu.html"><strong>Menu</strong></a></li>
+        <li><a href="signin.html"><strong>Sign in & Earn Rewards</strong></a></li>
+    </ul>
+</nav>
+    </header>
+
+    <!-- Image of pizzeria's logo -->
+    <main>
+        <img src="grippo-pizzeria-high-resolution-logo.png" width="40%" height="60%" alt="logo grippo pizzeria">
+
+        <!-- The beggining of the form -->
+        <form>
+          <!-- Friendly titles to make the user experience smoothly and nicier -->
+    <h1>Delivery or Take out?</h1>
+
+    <!-- First fieldset: Delivery or Take out and How many pizzas -->
+    <fieldset>
+        <legend><strong>How  would you like today?</strong></legend>
+        <ul>
+            <li>
+                <label for="title_1">
+                    <input type="radio" id="title_1" name="title" value="A" />
+                    Delivery
+                  </label>
+            </li>
+            <li>
+                <label for="title_2">
+                  <input type="radio" id="title_2" name="title" value="B" />
+                  Take out
+                </label>
+              </li>
+              <li>
+                <label for="quantity">How many pizzas?</label>
+                <input type="text" id="quantity" quantity="quantity" />
+              </li>
+
+        </ul>
+        </fieldset>
+
+        <h1>Pizza Style</h1>
+        <!-- Second fieldset: type of the dough/crust -->
+    <fieldset>
+        <legend>What's your style?</legend>
+        <p>
+            <label for="style">
+            </label>
+            <select id="style" name="types">
+              <option value="deep">Deep-dish</option>
+              <option value="thin">Thin Crust</option>
+              <option value="thick">Thick Crust</option>
+              <option value="gfree">Gluten Free</option>
+              <option value="natural">Natural Fermentation</option>
+            </select>
+          </p>
+        </fieldset>
+    </form>
+
+    <form>
+
+        <h1>Shape matters</h1>
+        <!-- Third fieldset: shape -->
+        <fieldset>
+            <legend>What's your favourite?</legend>
+            <ul>
+                <li>
+                    <label for="title_3">
+                        <input type="radio" id="title_3" name="title" value="C" />
+                        Round team
+                      </label>
+                </li>
+                <li>
+                    <label for="title_4">
+                      <input type="radio" id="title_4" name="title" value="D" />
+                      Square team                     
+                    </label>
+                  </li>
+            </ul>
+            </fieldset>
+
+            <h1>How hungry are you?</h1>
+            <!-- Forth fieldset: size -->
+    <fieldset>
+        <legend>Choose your pizza's size</legend>
+        <p>
+            <label for="style">
+                          </label>
+            <select id="style" name="types">
+              <option value="s">Small - 4 slices</option>
+              <option value="m">Medium - 6 slices</option>
+              <option value="l">Large - 8 slices</option>
+              <option value="xl">Extra Large - 10 slices</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <h1>Toppings</h1>
+                <!-- Fifth fieldset: toppings -->
+        <fieldset class="toppings">
+            <legend>Choose 3 or $2 for additional</legend>
+        <p>
+            <input type="checkbox" id="taste_1" name="broccoli" value="broccoli" checked />
+            <label for="taste_1">Broccoli</label>
+          </p>
+          <p>
+            <input type="checkbox" id="taste_2" name="pepperoni" value="pepperoni" />
+            <label for="taste_2">Pepperoni</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_3" name="Mushrooms" value="Mushrooms" />
+            <label for="taste_1">Mushrooms</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_4" name="Sausage" value="Sausage" />
+            <label for="taste_1">Sausage</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_5" name="Onions" value="Onions" />
+            <label for="taste_1">Onions</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_6" name="Bacon" value="Bacon" />
+            <label for="taste_1">Bacon</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_7" name="Extra Cheese" value="Extra Cheese" />
+            <label for="taste_1">Extra Cheese</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_8" name="Peppers" value="Peppers" />
+            <label for="taste_1">Peppers</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_9" name="Black Olives" value="Black Olives" />
+            <label for="taste_1">Black Olives</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_10" name="Chicken" value="Chicken" />
+            <label for="taste_1">Chicken</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_11" name="Fresh Basil" value="Fresh Basil" />
+            <label for="taste_1">Fresh Basil</label>
+          </p>
+
+          <p>
+            <input type="checkbox" id="taste_12" name="Ham" value="Ham" />
+            <label for="taste_1">Ham</label>
+          </p>             
+          </fieldset>
+          <!-- Button to submit -->
+          <section>
+            <p>
+              <button type="submit">That's it, let's pay</button>
+            </p>
+          </section>
+
+   <!-- End of the form -->
+</form>
+
+    </main>
+    <!--Footer  -->
+<footer>
+<p><small>Grippo Pizzeria Inc. All rights reserved.</small></p>
+
+</footer>
+    
+</body>
+</html>
