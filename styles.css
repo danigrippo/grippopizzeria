@@ -38,5 +38,11 @@ select{
     font-size: x-large;
 }
 
-*{
+img{
+
+    display: block;
+    margin: auto;
 }
+
+main, footer{
+background-color: rgb(168, 233, 182);}
